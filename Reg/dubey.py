@@ -1,5 +1,5 @@
 import pandas
-z=input("Enter that u wat to pridict:")
+z=input("Enter What u wat to pridict:")
 z=float(z)
 ds=pandas.read_csv("Salary_Data.csv")
 x=ds["YearsExperience"].values
